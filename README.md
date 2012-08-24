@@ -4,7 +4,7 @@ UrlShortener
 Converts an auto-generated, unique numeric key to an alphanumeric value using a bijective function.
 
 The intended use is that incrementing, consecutive integers will be used as keys to generate short URLs.
-Using this module, a unique integer ID assigned by a database to a URL is associated with an alphanumeric value.
+Using this module a unique integer ID assigned by a database to a URL is associated with an alphanumeric value.
 This value is substantially shorter in length than the original URL and is desirable in circumstances where
 the number of characters is limited or when concealment of the underlying address may be necessary.
 
