@@ -30,7 +30,7 @@ public class UrlShortener
 	 */
 	public static int decode(String str)
     {
-        int num = 0;
+        int num = 0;inty=0;
 
         for ( int i = 0, len = str.length(); i < len; i++ )
         {
