@@ -19,7 +19,7 @@ public class UrlShortener
 			num /= BASE;
 		}
 
-	return sb.reverse().toString();
+		return sb.reverse().toString();
 	}
 
 	/**
