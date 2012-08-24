@@ -4,7 +4,7 @@ public class UrlShortener
 	private static final int    BASE     = 62;
 
 	/**
-	* Encodes a numeric key as a short alphanumeric value.
+	* Encodes a numeric key as a short, unique alphanumeric value.
 	*
 	* @param   num the key to encode
 	* @return  the alphanumeric value
