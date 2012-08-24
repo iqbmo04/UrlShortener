@@ -28,7 +28,7 @@ public class UrlShortener
 	* @param   str the String to decode
 	* @return  the decoded key
 	*/
-	public static int decode(String str)
+	public static int decode(String str) 
 	{
 		int num = 0;
 
