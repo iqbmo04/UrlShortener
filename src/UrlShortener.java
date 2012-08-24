@@ -3,6 +3,12 @@ public class UrlShortener
     private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     private static final int    BASE     = 62;
 
+	/**
+	 * Encodes a numeric key as a short alphanumeric value.
+	 *
+	 * @param   num the key to encode
+	 * @return  the alphanumeric value
+	 */
     public static String encode(int num)
     {
         StringBuilder sb = new StringBuilder();
@@ -16,7 +22,13 @@ public class UrlShortener
        return sb.reverse().toString();
     }
 
-    public static int decode(String str)
+	/**
+	 * Decodes an alphanumeric value into its numeric key.
+	 *
+	 * @param   str the String to decode
+	 * @return  the decoded key
+	 */
+	public static int decode(String str)
     {
         int num = 0;
 

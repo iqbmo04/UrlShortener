@@ -1,20 +1,25 @@
 UrlShortener
 ============
 
-Converts an auto-generated, unique numerical key to a shortened URL using a bijective function.
+Converts an auto-generated, unique numeric key to an alphanumeric value using a bijective function.
+
+The intended use is that incrementing, consecutive integers will be used as keys to generate short URLs.
+Using this module, a unique integer ID assigned by a database to a URL is associated with an alphanumeric value.
+This value is substantially shorter in length than the original URL and is desirable in circumstances where
+the number of characters is limited or when concealment of the underlying address may be necessary.
 
 
 Usage
 -----
 
 #### Encoding
-To translate a numerical key to shortened URL (alphanumeric), call the `encode()` method, passing in the key:
+To translate a numeric key to shortened URL, call the `encode()` method, passing in the key:
 ```
 UrlShortener.encode(2947153); // "mwQT"
 ```
 
 #### Decoding
-To resolve a shortened URL to its numerical key, use the `decode()` method:
+To resolve a shortened URL to its numeric key, use the `decode()` method:
 ```
 UrlShortener.decode("mwQT"); // 2947153
 ```
