@@ -5,7 +5,7 @@ import org.junit.Test;
 public class UrlShortenerTest
 {
 	@Test
-	public void testUrlShortener()
+	public void test()
 	{
 		for ( int i = 1; i < Integer.MAX_VALUE; i++ )
 		{
