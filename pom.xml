@@ -1,0 +1,21 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.richardarcega</groupId>
+	<artifactId>urlshortener</artifactId>
+	<version>1.0.0</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	
+	<build>
+		<sourceDirectory>${basedir}/src</sourceDirectory>
+		<testSourceDirectory>${basedir}/test</testSourceDirectory>
+	</build>
+</project>
+
