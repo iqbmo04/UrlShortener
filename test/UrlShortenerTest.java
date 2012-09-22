@@ -5,9 +5,9 @@ import org.junit.Test;
 public class UrlShortenerTest
 {
 	@Test
-	public void test()
+	public void testEncodeAndDecode()
 	{
-		for ( int i = 1; i < Integer.MAX_VALUE; i++ )
+		for ( int i = 1; i < 10000000; i++ )
 		{
 			assertEquals( i, UrlShortener.decode( UrlShortener.encode( i ) ) );
 		}
